@@ -15,11 +15,11 @@ Navigate to the "Deleted Files" section in Autopsy and examine or recover the de
 ## PROGRAM:
 Autopsy Deleted File Recovery Steps
 
-Step 1: Launch Autopsy
+# Step 1: Launch Autopsy
 autopsy
 It opens your browser at: http://localhost:9999
  
-Step 2: Create a New Case
+# Step 2: Create a New Case
 Click "Create New Case".
 
 Enter a Case Name (e.g., FileRecoveryTest).
@@ -30,7 +30,7 @@ Choose a Case Directory (e.g., /home/kali/Documents/AutopsyCases).
 
 Click "Finish".
 
-Step 3: Add Data Source (Your Disk Image)
+# Step 3: Add Data Source (Your Disk Image)
 Select "Add Data Source".
 
 Choose "Disk Image or VM File".
@@ -43,7 +43,7 @@ Click Next, then Finish.
 
 Autopsy will now ingest and analyze the image file.
 
-Step 4: Navigate to Deleted Files
+# Step 4: Navigate to Deleted Files
 After analysis completes:
 
 Go to the left pane → File Types or Data Artifacts.
@@ -56,7 +56,7 @@ Or:
 File Types → Unallocated Space / Deleted
 Autopsy will list deleted files that were found in unallocated space.
 
-Step 5: Recover the Deleted Files
+# Step 5: Recover the Deleted Files
 Click on a deleted file you want to recover.
 
 View the file preview on the right (if supported, e.g., images or text).
@@ -67,7 +67,9 @@ Choose a location to save the recovered file (e.g., /home/kali/Recovered/).
 Repeat for other files.
 
 ## OUTPUT:
+
 # Recovered Deleted File List and Details 
+
 ![Screenshot 2025-04-25 135455](https://github.com/user-attachments/assets/3878b201-26a3-4880-9b0a-a377cde136ce)
 
 ![Screenshot 2025-04-25 135514](https://github.com/user-attachments/assets/6db6f9fb-122a-4a8e-b01b-85faa7ab447f)
@@ -76,10 +78,12 @@ Repeat for other files.
 
 
 # MD5 Current And Orginal = Not Pass
+
 ![Screenshot 2025-04-25 135532](https://github.com/user-attachments/assets/f52d1e23-c738-495d-b5d2-408d4796a7da)
 
 # MD5 Current And Orginal = Pass
-![Uploading Screenshot 2025-04-25 135544.png…]()
+
+![Screenshot 2025-04-25 135544](https://github.com/user-attachments/assets/536cca1c-f8d2-4e0d-a843-c795b2fd28c8)
 
 
 ## RESULT:
